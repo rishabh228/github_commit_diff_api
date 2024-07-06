@@ -29,11 +29,12 @@ API Endpoints
 			Fetches the list of files in the commit, including the diff of each file.
 
 
-curl -X GET "http://localhost:3001/repositories/golemfactory/clay/commits/a1bf367b3af680b1182cc52bb77ba095764a11f9/diff" \
+curl -X GET "http://localhost:3000/repositories/golemfactory/clay/commits/a1bf367b3af680b1182cc52bb77ba095764a11f9" \
 -H "Authorization: token YOUR_GITHUB_TOKEN" \
 -H "Content-Type: application/json"
 
 
 curl -X GET "http://localhost:3000/repositories/golemfactory/clay/commits/a1bf367b3af680b1182cc52bb77ba095764a11f9/diff" \
--H "Authorization: token ghp_yourgithubtoken1234567890abcdef" \
+-H "Authorization: token YOUR_GITHUB_TOKEN" \
 -H "Content-Type: application/json"
+
